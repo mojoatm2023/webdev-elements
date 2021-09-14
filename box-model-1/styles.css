@@ -1,0 +1,22 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 40px;
+}
+
+/**/
+
+.box-one {
+    background-color: #EB5757;
+
+
+    padding: 20px; /*Adds pixels to each side with color*/
+    border: 20px solid #9b51E0; /*Goes outside of main text and space around text*/
+    margin: 20px; /*Goes outside of border*/
+}
+
+.box-two {
+    background-color: #2D9CDB;
+    border: 0 solid #27AE60;
+}
+
