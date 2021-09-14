@@ -29,7 +29,24 @@
 .bar{
     display: block;
     cursor: pointer;
+    background-color: #fff;
+    width: 20px;
+    height: 20px;
+}
+.bar:nth-of-type(1) {
+    background-color: red;
 }
 
 .navbar_menu{
+}
+
+.spacer {
+    flex-grow: 1;
+}
+
+.navbar-container ul {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
 }
