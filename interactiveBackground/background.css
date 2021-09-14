@@ -1,0 +1,77 @@
+*{
+    margin:0;
+    padding:0;
+    content:0;
+}
+
+body {
+    background-image: linear-gradient(to bottom, #051b2b 0%, #010802 100%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    overflow-x: hidden;
+}
+
+.background {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height:100vh;
+    width:100vw;
+    margin:0;
+    padding:0;
+    content:0;
+    z-index: 3;
+}
+
+.moon-and-sun {
+
+    width: 50px;
+    height: 50px;
+    
+}
+
+.moon-wrapper {
+    border: 1px solid red;
+    border-radius: 100%;
+}
+
+.moon {
+    width: 500px;
+    height: 500px;
+    border-radius: 100%;
+    background-color: rgba(255, 255, 255, 0.404);
+    position: relative;
+    box-shadow: 2px 2px 50px #fff;
+}
+
+.moon .dot {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgb(218, 218, 218);
+}
+
+/* .moon .dot:nth-of-type(1) {
+    left: 20%;
+    top: 20%;
+}
+
+.moon .dot:nth-of-type(2) {
+    left: 50%;
+    top: 80%;
+}
+.moon .dot:nth-of-type(3) {
+    left: 30%;
+    top: 50%;
+}
+.moon .dot:nth-of-type(4) {
+    left: 70%;
+    top: 30%;
+} */
+
