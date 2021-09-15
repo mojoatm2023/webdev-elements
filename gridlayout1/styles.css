@@ -1,0 +1,18 @@
+.basic-grid {
+    display: grid;
+    gap: 1rem;
+    /**/
+
+    /*Unclean*/
+    grid-template-columns: 1fr 1fr;
+
+    /*Clean*/
+    grid-template-columns: repeat(12, 1fr);
+
+    /*Better Sizing*/
+    grid-template-columns: repeat(12, minmax(240px, 1fr));
+
+    /*Final*/
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    /*Also an auto-fill option that creates additional columns when there is additional space*/
+}
