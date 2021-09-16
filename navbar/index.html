@@ -9,21 +9,32 @@
     <link rel="stylesheet" href="navbar.css">
 </head>
 <body>
-    <!--navbar-->
-    <div class="navbar-container">
-        <a href="" class="logo"> <img src="./images/yy.svg" alt="yy"> </a>
-        <div class="spacer"></div>
-        <div class="nav-toggle">
-            <div class="bar"></div>
-            <div class="bar"></div>
-        </div>
-        <ul>
-            <li>Home</li>
-            <li>Porn</li>
-            <li>Portfolio</li>
-        </ul>     
+    <!--Navigation Bar-->
+    <nav class="navbar">
+        <div class="navbar-container">
+            <div class="loader">
+                <span class="load-circle" style="--order:1"></span>
+                <span class="load-circle" style="--order:2"></span>
+                <span class="load-circle" style="--order:3"></span>
+                <a href="/index.html"><img src="images/home.svg" alt="Home" class="logo-link"></a>
+            </div>
+            <div class="spacer"></div>
+            <img src="/images/colorToggle.svg" alt="" class="color-toggle">
+            <div class="navbar-toggle" id="toggle-animation">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <span class="box"></span>
+            <span class="box"></span>
+            
+            <div class="navbar-menu">
+                
+            </div>
+        </div> 
 
+    </nav>
 
-    </div>
+    <script src="scripts.js"></script>
 </body>
 </html>
